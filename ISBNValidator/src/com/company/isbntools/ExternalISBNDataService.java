@@ -1,0 +1,5 @@
+package com.company.isbntools;
+
+public interface ExternalISBNDataService {
+    public Book lookup(String isbn);
+}
